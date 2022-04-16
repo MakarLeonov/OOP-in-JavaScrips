@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>ООП в JavaScript</title>
 </head>
 <body>
+
+    <form>
+        <div class="input">
+            <p class="title">Считаем расстояние</p>
+            <p>Введите х1:</p>
+            <input type="text" id="x1">
+
+            <p>Введите y1:</p>
+            <input type="text" id="y1">
+
+            <p>Введите x2:</p>
+            <input type="text" id="x2">
+
+            <p>Введите y2:</p>
+            <input type="text" id="y2">
+        </div>
+
+        <div class="output">
+            <button id="btn" type="button">Вычислить расстояние</button>
+            <p>Расстояние равно: <span class="result"></span></p>
+        </div>
+    </form>
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
